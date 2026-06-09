@@ -26,6 +26,7 @@ PropertyID propertyid(std::string_view name)
         {"height", PropertyID::Height},
         {"href", PropertyID::Href},
         {"id", PropertyID::Id},
+        {"kind", PropertyID::Kind}, // Expanded prop, text-only
         {"lengthAdjust", PropertyID::LengthAdjust},
         {"markerHeight", PropertyID::MarkerHeight},
         {"markerUnits", PropertyID::MarkerUnits},

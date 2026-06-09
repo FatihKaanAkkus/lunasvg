@@ -90,6 +90,7 @@ enum class ElementID : uint8_t {
     Ellipse,
     G,
     Image,
+    Kind, // Expanded prop, text-only
     Line,
     LinearGradient,
     Marker,

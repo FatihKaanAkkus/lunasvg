@@ -35,6 +35,7 @@ set(lunasvg_sources
 
 set(lunasvg_headers
     include/lunasvg.h
+    include/lunasvg_expanded.h
     source/graphics.h
     source/svgelement.h
     source/svggeometryelement.h

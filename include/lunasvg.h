@@ -651,7 +651,7 @@ public:
      */
     NodeList children() const;
 
-private:
+public: // Exposed for external use
     Element(SVGElement* element);
     SVGElement* element(bool layoutIfNeeded = false) const;
     friend class Node;

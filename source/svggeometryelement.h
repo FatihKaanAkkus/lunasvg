@@ -130,7 +130,7 @@ public:
 
     Rect updateShape(Path& path) final;
 
-private:
+public: // Exposed for external use
     SVGPath m_d;
 };
 
