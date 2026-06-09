@@ -23,6 +23,7 @@ ElementID elementid(std::string_view name)
         {"ellipse", ElementID::Ellipse},
         {"g", ElementID::G},
         {"image", ElementID::Image},
+        {"kind", ElementID::Kind}, // Expanded prop, text-only
         {"line", ElementID::Line},
         {"linearGradient", ElementID::LinearGradient},
         {"marker", ElementID::Marker},

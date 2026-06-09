@@ -35,6 +35,7 @@ set(lunasvg_sources
 
 set(lunasvg_headers
     include/lunasvg.h
+    include/lunasvg_expanded.h
     source/graphics.h
     source/svgelement.h
     source/svggeometryelement.h
@@ -93,6 +94,16 @@ write_basic_package_version_file(lunasvgConfigVersion.cmake
 
 install(FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/include/lunasvg.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/lunasvg_expanded.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/graphics.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/svgelement.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/svggeometryelement.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/svglayoutstate.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/svgpaintelement.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/svgparserutils.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/svgproperty.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/svgrenderstate.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/svgtextelement.h
     DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/lunasvg
 )
 

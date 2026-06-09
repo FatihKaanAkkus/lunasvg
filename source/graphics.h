@@ -540,7 +540,7 @@ public:
     int width() const;
     int height() const;
 
-    Rect extents() const { return Rect(m_x, m_y, width(), height()); }
+    Rect extents() const { return Rect((float)m_x, (float)m_y, (float)width(), (float)height()); }
 
     plutovg_surface_t* surface() const { return m_surface; }
     plutovg_canvas_t* canvas() const { return m_canvas; }
